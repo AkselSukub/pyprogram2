@@ -3,4 +3,5 @@ chisl = int(input("Введите число: "))
 count = 0
 while chisl > 0:
     count = count + 1
-    var_1 = var_1 // 10
+    chisl = chisl // 10
+print("Количество цифр равно:", count)
